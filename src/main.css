@@ -5,7 +5,7 @@
   padding: 0;
 }
 body {
-  background-color: #ddd;
+  background-color: #eeeeec;
 }
 header {
   width: 100%;
@@ -47,15 +47,18 @@ header {
 .profile-container,
 .description {
   padding: 10px;
-  background-color: rgb(255, 255, 255);
+  background: #fff;
 }
 .image-container {
   grid-area: image;
 }
 .profile-container {
   grid-area: profile;
-  line-height: 3em;
-  padding-top: 40px;
+  display: flex;
+  align-items: left;
+  line-height: 2em;
+	flex-direction: column;
+	justify-content: center;
 }
 .description {
   grid-area: description;
